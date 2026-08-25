@@ -1,0 +1,27 @@
+{
+  "name": "Brasil Repo",
+  "version": "1.0.0",
+  "scrapers": [
+    {
+      "id": "meuvod",
+      "name": "Meu Vod",
+      "description": "Assista filmes, séries e novelas no seu nuvio",
+      "version": "1.0.0",
+      "author": "zoreu",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/meuvod.js",
+      "enabled": true,
+      "formats": [
+        "mkv",
+        "mp4"
+      ],
+      "logo": "https://static.vecteezy.com/system/resources/previews/029/898/458/non_2x/iptv-badge-icon-logo-stock-illustration-vector.jpg",
+      "contentLanguage": [
+        "pt-br"
+      ]
+    }  
+  ]
+}
