@@ -1,12 +1,18 @@
 {
-    "id": "meuvod",
-    "name": "Meu Vod",
-    "description": "Provider Xtream (Meu VOD) - Filmes e Séries",
-    "version": "1.0.0",
-    "author": "Meu Vod",
-    "supportedTypes": ["movie", "tv"],
-    "filename": "providers/meuvod.js",
-    "enabled": true,
-    "contentLanguage": ["pt"],
-    "formats": ["mp4", "mkv"]
+  "name": "Brasil Repo",
+  "version": "1.0.0",
+  "scrapers": [
+    {
+        "id": "meuvod",
+        "name": "Meu Vod",
+        "description": "Provider Xtream (Meu VOD) - Filmes e Séries",
+        "version": "1.0.0",
+        "author": "Meu Vod",
+        "supportedTypes": ["movie", "tv"],
+        "filename": "providers/meuvod.js",
+        "enabled": true,
+        "contentLanguage": ["pt"],
+        "formats": ["mp4"]
+    }     
+  ]
 }
